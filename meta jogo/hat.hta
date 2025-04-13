@@ -1,0 +1,61 @@
+<HTML>
+<HEAD>
+<HTA:APPLICATION ID="mapa 1" 
+   BORDER="bold" 
+   BORDERSTYLE="complex"/>
+   <script type="text/javascript">
+    var madeira = 0;
+    function mis(){
+      var shell = new ActiveXObject( "WScript.shell" );
+       shell.run( '"missao.vbs"', 1, true );
+    };
+    function tr(){
+      alert('alem de bater no boneco de madeira machucar suas mãos ele deixa cair alguns pedaços de madeira');
+      madeira =+ 1;
+    };
+    function ajud(){
+      if(madeira > 0) {
+ var shell = new ActiveXObject( "WScript.shell" );
+       shell.run( 'ponte.bat', 1, true );
+      };
+      else{
+        var shell = new ActiveXObject( "WScript.shell" );
+       shell.run('ponte1.bat', 1, true );
+      };
+    };
+   </script>
+<TITLE>mutule</TITLE>
+<meta charset="UTF-8">
+</HEAD> 
+<BODY>
+<h1>
+<pre id="demo">                                           
+       _                                                                        
+      / \                                                                       
+     / o \   <button onclick="mis()">casa</button>                                                                   
+    |─────|                                                                     
+    |     |                                                                     
+   ~|  π  |~~~~~~~~~~~                                                          
+ ~~~~~~~~~~           ~~~~~ ~~~~~~~~~~~~~                                       
+~~                         ~~≈≈≈≈≈≈≈≈≈≈≈≈≈~~~~~~~~~~~~~~~~~~~~~~~~~             aaaaaaaaaaaaaaaaaaaaa
+                             ~~≡≡≡≡≡≡≡≡≡≡≡≡≡≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈~~~~~~~~~~~~~aaaaaaaaaaaaaaaaaaaaa
+                               ╕░░░░░░░░░░░░░░░≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≈≈≈≈≈≈≈≈≈≈≈≈aaaaaaaaaaaaaaaaaaaaa
+                               ░╕░░ ░     ░   ░░░░░░░░░░░░░░░░░░░░░░░≡≡≡≡≡≡≡≡≡≡≡aaaaaaaaaaaaaaaaaaaaa
+                               ╕▒░░             ░ ░░░░░░░  ░░░   ░░ ░░░░░░░░░░░░aaaaaaaaaaaaaaaaaaaaa
+                             ~~╙╕░░                         ░         ░ ░  ░░░░░aaaaaaaaaaaaaaaaaaaaa
+~~                         ~~░░░░░                                             ░aaaaaaaaaaaaaaaaaaaaa
+  ~~~~~              ~~~~~~╖░░░                                                  aaaaaaaaaaaaaaaaaaaaa
+   ^   ~~~╓~~~~╖~~~~~~ XXXx║╖░░░                                                 aaaaaaaaaaaaaaaaaaaaa
+ ^ ^      ╢░░░░╟          Xx║║╖░░                                                aaaaaaaaaaaaaaaaaaaaa
+     ^    ╢▒▒▒▒╟ ^     ^   Xxx║░░                                                aaaaaaaaaaaaaaaaaaaaa
+          ╢▒▒▒▒╟   ^        Xx║╖░░                                               aaaaaaaaaaaaaaaaaaaaa
+ ^^  ^^   ╢▒▒▓▓╟    ^   ^    Xx║░                             π                  aaaaaaaaaaaaaaaaaaaaa
+       ^^ ╢▓▓▓▓╟<button onclick="ajud()">ponte</button> ^   ^   Xx║░                             ─0─                  aaaaaaaaaaaaaaaaaaaaa
+   ^  ^  ^╢▒▓▒▒╟     ^   ^   Xx║░░                            │                     aaaaaaaaaaaaaaaaaaaaa
+          ╢▒▒▒▒╟       ^^^  Xxx║░                           <button onclick="tr()"> bater </button>                    
+ ^^  ^    ╢▒▒▒▒╟  ^  ^ ^   Xxx║║░                                              
+          ╢░░░░╟       ^  Xxxx║╜░░                                             
+</pre></h1>
+</BODY>
+</meta>
+</HTML>
