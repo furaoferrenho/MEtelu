@@ -76,7 +76,6 @@ set/p temp=""
 if %temp%==1 (
  echo você passa pela ponte
  pause
-  taskkill im hat.hta 
  set __COMPAT_LAYER=RunAsInvoker && "temp\mapa2.hta" 
   )
 if %temp%==2 ( exit )
