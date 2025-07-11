@@ -33,7 +33,7 @@ if %neto%==1 ( @echo off
  goto :visual
 )
 if %neto%==2 ( @echo off 
- echo \nem que se eu quisece, estou sem produtos\
+ echo \nem que se eu quisesse, estou sem produtos\
  pause
  goto :visual
 )
