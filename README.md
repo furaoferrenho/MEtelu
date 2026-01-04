@@ -6,3 +6,7 @@ Esse jogo foi feito no sistema operacional Windows 11 e pode não rodar em outro
   
 
 para iniciar o jogo so aperte 2 vezes no arquivo FUNCIONAAAAAAA.bat :3
+
+
+
+# jogo abandonado atualmente
